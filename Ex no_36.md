@@ -1,12 +1,12 @@
 # # #Task - Hackerrank Problem
 
-This challenge requires you to print Hello Saveetha! on a single line, and then print the already provided input string to stdout. If you are not familiar with C, you may want to read about the printf() command.
+This challenge requires you to print Hello SEC! on a single line, and then print the already provided input string to stdout. If you are not familiar with C, you may want to read about the printf() command.
 
 # # Example:
 
 Saveetha
 
-The required output is: Hello, Saveetha! C Programming
+The required output is: Hello, SEC! C Programming
 
 ## AIM:
 To write a C program to print the given string.
@@ -36,7 +36,7 @@ RESULT:
 Thus, the program is executed and verified successfully
 ~~~
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/f7a3abf8-4b3d-490c-a7d5-83e323e04a5d)
+<img width="1132" height="242" alt="image" src="https://github.com/user-attachments/assets/ec3f3cfa-5e4e-4735-a2bf-4dc6114f1ef3" />
 
 ## RESULT:
 Thus, the program is executed and verified successfully
