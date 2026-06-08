@@ -103,13 +103,8 @@ string are:\n");
 }
 ```
 ## OUTPUT
-Input:
+<img width="727" height="372" alt="image" src="https://github.com/user-attachments/assets/24f49b7d-a1d8-4793-96b9-5c9103e306bb" />
 
-![image](https://github.com/user-attachments/assets/071b5d76-699a-4161-9980-ef45d0eb3e84)
-
-Output:
-
-![image](https://github.com/user-attachments/assets/07b0daf2-5aae-424b-9e1d-1e43a0882ea5)
 
 ## RESULT:
 Thus, the program is executed and verified successfully.
