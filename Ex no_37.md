@@ -83,7 +83,7 @@ difference
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/00b35ee9-2740-45cb-9b33-d8d0e498fb4b)
+<img width="1127" height="240" alt="image" src="https://github.com/user-attachments/assets/a1bb89b1-02b0-40e8-b685-5073894e79b6" />
 
 ## RESULT:
 Thus, the program is executed and verified successfully.
