@@ -2,8 +2,8 @@
 
 # # Given a positive integer denoting , do the following:
 
-# If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 41 , forty two for 42 etc.).
-If n>49 print Greater than 49.
+# If  71<=n <=79 print the lowercase English word corresponding to the number (e.g., seventy one for 71 , seventy two for 72 etc.).
+If n>79 print Greater than 99.
 ## Input Format
 
 The first line contains a single integer, .
@@ -12,17 +12,17 @@ The first line contains a single integer, .
 
 ## Output Format
 
-If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 4 , forty two for 42 etc.).
-If n>49 print Greater than 49.
+If   71<=n <=79 print the lowercase English word corresponding to the number (e.g., seventy one for 71 , seventy two for 72 etc.).
+If n>79 print Greater than 79.
 ## Sample Input
 
-41
+71
 ## Sample Output
 
-forty one
+seventy one
 ## Sample Output
 
-forty one
+seventy one
 
 ## AIM:
 To write a program to print the English word corresponding to the given number.
@@ -39,38 +39,50 @@ To write a program to print the English word corresponding to the given number.
 ## PROGRAM:
 ```c
 #include <stdio.h>
-int main() {
- int num;
- scanf("%d", &num);
- switch (num) {
- case 41: 
-printf("forty one\n"); break;
- case 42: 
-printf("forty two\n"); break;
- case 43: 
-printf("forty three\n"); 
-break;
- case 44: 
-printf("forty four\n"); break;
- case 45: 
-printf("forty five\n"); break;
- case 46: 
-printf("forty six\n"); break;
- case 47: 
-printf("forty seven\n"); 
-break;
- case 48:
-printf("forty eight\n"); 
-break;
- case 49: 
-printf("forty nine\n"); break;
- default: 
-printf(" Greater than 49\n"); break;
- }
- return 0;
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    if(71<=n && n<=79)
+    {
+        printf("seventy ");
+        switch(n)
+        {
+            case 71:
+            printf("one"); 
+            break;
+            case 72:
+            printf("two"); 
+            break;
+            case 73:
+            printf("three"); 
+            break;
+            case 74:
+            printf("four"); 
+            break;
+            case 75:
+            printf("five"); 
+            break;
+            case 76:
+            printf("six"); 
+            break;
+            case 77:
+            printf("seven"); 
+            break;
+            case 78:
+            printf("eight"); 
+            break;
+            case 79:
+            printf("nine"); 
+            break;
+        }
+    }
+    else
+    printf("Greater than 79");
+    return 0;
 }
 ```
 ## OUTPUT
-![Screenshot 2025-05-13 183348](https://github.com/user-attachments/assets/c00fe928-a351-4f09-95b0-52af7c7a66f6)
+<img width="832" height="252" alt="image" src="https://github.com/user-attachments/assets/49878869-d992-43b8-8076-b42153ff7d09" />
 ## RESULT:
 Thus, the program is executed and verified successfully
